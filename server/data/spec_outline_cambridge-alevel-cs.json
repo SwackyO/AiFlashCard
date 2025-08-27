@@ -1,0 +1,551 @@
+{
+  "board": "cambridge",
+  "spec_id": "alevel-cs",
+  "subject": "Computer Science",
+  "sections": {
+    "1": {
+      "title": "Information representation",
+      "subtopics": {
+        "1.1": {
+          "title": "Data Representation",
+          "bullets": [
+            "Understand and use binary magnitudes, differentiating binary and decimal prefixes (kibi/kilo, mebi/mega, gibi/giga, tebi/tera).",
+            "Understand different number systems (binary, denary, hexadecimal, BCD).",
+            "Convert between number bases and representations (including one's and two's complement).",
+            "Perform binary addition and subtraction with positive and negative integers.",
+            "Identify how overflow occurs.",
+            "Describe practical applications of BCD and hexadecimal.",
+            "Understand and represent character data in its internal binary form (ASCII, extended ASCII, Unicode)."
+          ]
+        },
+        "1.2": {
+          "title": "Multimedia – Graphics, Sound",
+          "bullets": [
+            "Understand how data for bitmapped images are encoded (pixel, file header, image resolution, screen resolution, color depth/bit depth).",
+            "Calculate the estimated file size for a bitmap image.",
+            "Understand how changing image elements affects quality and file size.",
+            "Understand how data for vector graphics are encoded (drawing object, property, drawing list).",
+            "Justify using bitmap or vector graphics for a given task.",
+            "Understand how sound is represented and encoded (sampling, sampling rate, sampling resolution, analogue/digital data).",
+            "Understand the impact of changing sampling rate and resolution on file size and accuracy."
+          ]
+        },
+        "1.3": {
+          "title": "Compression",
+          "bullets": [
+            "Understand the need for compression and give examples of its use.",
+            "Understand lossy and lossless compression, justifying method use in given situations.",
+            "Understand how text files, bitmaps, vector graphics, and sound files can be compressed (including RLE)."
+          ]
+        }
+      }
+    },
+    "2": {
+      "title": "Communication",
+      "subtopics": {
+        "2.1": {
+          "title": "Networks including the internet",
+          "bullets": [
+            "Understand the purpose and benefits of networking devices.",
+            "Understand characteristics of LANs and WANs.",
+            "Explain client-server and peer-to-peer network models, their benefits and drawbacks, justifying model use for given situations.",
+            "Understand thin-client and thick-client differences.",
+            "Understand bus, star, mesh, and hybrid topologies, showing how packets are transmitted and justifying topology use for given situations.",
+            "Understand cloud computing (public and private clouds), including benefits and drawbacks.",
+            "Understand differences and implications of wireless and wired networks, describing characteristics of copper cable, fiber-optic cable, radio waves (WiFi), microwaves, and satellites.",
+            "Describe hardware supporting a LAN (switch, server, NIC, WNIC, WAP, cables, bridge, repeater).",
+            "Describe the role and function of a router.",
+            "Understand Ethernet and collision detection/avoidance (CSMA/CD).",
+            "Understand bit streaming (real-time and on-demand), and the importance of bit rates and broadband speed.",
+            "Understand differences between the World Wide Web and the internet, and describe supporting hardware (modems, PSTN, dedicated lines, cell phone network).",
+            "Explain the use of IP addresses (IPv4 and IPv6, subnetting, device association, public/private IP address implications for security, static/dynamic IP addresses).",
+            "Explain Uniform Resource Locators (URLs), their use in locating resources on the WWW, and the role of the Domain Name Service (DNS)."
+          ]
+        }
+      }
+    },
+    "3": {
+      "title": "Hardware",
+      "subtopics": {
+        "3.1": {
+          "title": "Computers and their components",
+          "bullets": [
+            "Understand the need for input, output, primary memory, and secondary storage (including removable).",
+            "Understand embedded systems, including benefits and drawbacks.",
+            "Describe the principal operations of hardware devices (laser printer, 3D printer, microphone, speakers, magnetic hard disk, solid state memory, optical disc reader/writer, touchscreen, virtual reality headset).",
+            "Understand the use of buffers.",
+            "Explain differences between RAM and ROM, including their use in various devices and systems.",
+            "Explain differences between SRAM and DRAM, including their use and reasons for choosing one over the other.",
+            "Explain differences between PROM, EPROM, and EEPROM.",
+            "Understand monitoring and control systems (monitoring vs. control, use of sensors and actuators, importance of feedback)."
+          ]
+        },
+        "3.2": {
+          "title": "Logic Gates and Logic Circuits",
+          "bullets": [
+            "Use logic gate symbols (NOT, AND, OR, NAND, NOR, XOR).",
+            "Understand and define the functions of logic gates.",
+            "Construct truth tables for logic gates.",
+            "Construct logic circuits from problem statements, logic expressions, and truth tables.",
+            "Construct truth tables from problem statements, logic circuits, and logic expressions.",
+            "Construct logic expressions from problem statements, logic circuits, and truth tables."
+          ]
+        }
+      }
+    },
+    "4": {
+      "title": "Processor Fundamentals",
+      "subtopics": {
+        "4.1": {
+          "title": "Central Processing Unit (CPU) Architecture",
+          "bullets": [
+            "Understand the basic Von Neumann model and the stored program concept.",
+            "Understand the purpose and role of registers (general purpose vs. special purpose – PC, MDR, MAR, ACC, IX, CIR, Status Register).",
+            "Understand the purpose and roles of the ALU, CU, and system clock, and Immediate Access Store (IAS).",
+            "Understand data transfer between computer system components using address bus, data bus, and control bus.",
+            "Understand factors contributing to computer system performance (processor type and number of cores, bus width, clock speed, cache memory).",
+            "Understand how different ports provide connection to peripheral devices (USB, HDMI, VGA).",
+            "Describe the stages of the Fetch-Execute (F-E) cycle.",
+            "Describe and use register transfer notation to describe the F-E cycle.",
+            "Understand the purpose of interrupts (causes, applications, use of ISR, interrupt detection during F-E cycle, interrupt handling)."
+          ]
+        },
+        "4.2": {
+          "title": "Assembly Language",
+          "bullets": [
+            "Understand the relationship between assembly language and machine code.",
+            "Describe the different stages of the assembly process for a two-pass assembler.",
+            "Apply the two-pass assembler process to a given simple assembly language program.",
+            "Trace a given simple assembly language program.",
+            "Understand instruction grouping (data movement, input/output, arithmetic operations, unconditional/conditional instructions, compare instructions).",
+            "Understand and use different addressing modes (immediate, direct, indirect, indexed, relative)."
+          ]
+        },
+        "4.3": {
+          "title": "Bit manipulation",
+          "bullets": [
+            "Understand and perform binary shifts (logical, arithmetic, cyclic, left shift, right shift).",
+            "Understand how bit manipulation can be used to monitor/control a device.",
+            "Carry out bit manipulation operations (test and set a bit using bit masking)."
+          ]
+        }
+      }
+    },
+    "5": {
+      "title": "System Software",
+      "subtopics": {
+        "5.1": {
+          "title": "Operating Systems",
+          "bullets": [
+            "Explain why a computer system requires an OS.",
+            "Explain key management tasks carried out by the OS (memory management, file management, security management, hardware management, process management).",
+            "Understand the need for typical utility software (disk formatter, virus checker, defragmentation software, disk contents analysis/repair, file compression, backup software).",
+            "Understand program libraries, including their benefits to developers (including DLL files)."
+          ]
+        },
+        "5.2": {
+          "title": "Language Translators",
+          "bullets": [
+            "Understand the need for assemblers, compilers, and interpreters.",
+            "Explain benefits and drawbacks of compilers and interpreters, justifying their use.",
+            "Know that high-level language programs may be partially compiled and partially interpreted (like Java).",
+            "Describe features found in a typical IDE (coding, error detection, presentation, debugging)."
+          ]
+        }
+      }
+    },
+    "6": {
+      "title": "Security, privacy and data integrity",
+      "subtopics": {
+        "6.1": {
+          "title": "Data Security",
+          "bullets": [
+            "Explain the difference between security, privacy, and data integrity.",
+            "Appreciate the need for data and computer system security.",
+            "Describe security measures protecting computer systems (user accounts, passwords, authentication techniques, firewall, anti-virus/spyware, encryption).",
+            "Understand threats to computer and data security posed by networks and the internet (malware, hackers, phishing, pharming).",
+            "Describe methods to restrict risks posed by threats.",
+            "Describe security methods protecting data security (encryption, access rights)."
+          ]
+        },
+        "6.2": {
+          "title": "Data Integrity",
+          "bullets": [
+            "Describe how data validation and verification protect data integrity.",
+            "Describe and use data validation methods (range check, format check, length check, presence check, existence check, limit check, check digit).",
+            "Describe and use data verification methods during data entry (visual check, double entry) and data transfer (parity check, checksum)."
+          ]
+        }
+      }
+    },
+    "7": {
+      "title": "Ethics and Ownership",
+      "subtopics": {
+        "7.1": {
+          "title": "Ethics and Ownership",
+          "bullets": [
+            "Understand the need for and purpose of ethics as a computing professional.",
+            "Understand the importance of joining professional ethical bodies (BCS, IEEE).",
+            "Understand the need to act ethically and the impact of ethical/unethical actions.",
+            "Understand the need for copyright legislation.",
+            "Understand different software licensing types (Free Software Foundation, Open Source Initiative, shareware, commercial software), justifying license use for given situations.",
+            "Understand Artificial Intelligence (AI), its impact (social, economic, environmental), and its applications."
+          ]
+        }
+      }
+    },
+    "8": {
+      "title": "Databases",
+      "subtopics": {
+        "8.1": {
+          "title": "Database Concepts",
+          "bullets": [
+            "Understand the limitations of file-based data storage and retrieval.",
+            "Describe features of a relational database addressing file-based approach limitations.",
+            "Understand and use relational database model terminology (entity, table, record, field, tuple, attribute, primary key, candidate key, secondary key, foreign key, relationship types, referential integrity, indexing).",
+            "Use entity-relationship (E-R) diagrams to document database design.",
+            "Understand the normalization process (1NF, 2NF, 3NF).",
+            "Explain why a given set of database tables are, or are not, in 3NF.",
+            "Produce a normalized database design from a description, given data, or given tables."
+          ]
+        },
+        "8.2": {
+          "title": "Database Management Systems (DBMS)",
+          "bullets": [
+            "Understand DBMS features addressing file-based approach issues (data management, data modeling, logical schema, data integrity, data security, backup procedures, access rights).",
+            "Understand how software tools within a DBMS are used in practice (developer interface, query processor)."
+          ]
+        },
+        "8.3": {
+          "title": "Data Definition Language (DDL) and Data Manipulation Language (DML)",
+          "bullets": [
+            "Understand that the DBMS uses DDL for database structure creation/modification and DML for data queries and maintenance.",
+            "Understand that SQL is the industry standard for DDL and DML.",
+            "Understand given SQL statements.",
+            "Write simple SQL DDL statements (CREATE DATABASE, CREATE TABLE with various data types, ALTER TABLE, PRIMARY KEY, FOREIGN KEY).",
+            "Write SQL DML statements to query or modify data stored in at most two tables (SELECT, FROM, WHERE, ORDER BY, GROUP BY, INNER JOIN, SUM, COUNT, AVG, INSERT INTO, DELETE FROM, UPDATE)."
+          ]
+        }
+      }
+    },
+    "9": {
+      "title": "Algorithm Design and Problem-solving",
+      "subtopics": {
+        "9.1": {
+          "title": "Computational Thinking Skills",
+          "bullets": [
+            "Understand abstraction (need for, benefits, purpose, producing abstract models)."
+          ]
+        },
+        "9.2": {
+          "title": "Algorithms",
+          "bullets": [
+            "Understand that an algorithm is a solution expressed as a sequence of defined steps.",
+            "Use suitable identifier names and represent them using an identifier table.",
+            "Write pseudocode containing input, process, and output.",
+            "Write pseudocode using sequence, selection, and iteration constructs.",
+            "Document algorithms using structured English, flowcharts, or pseudocode.",
+            "Write pseudocode from structured English descriptions or flowcharts.",
+            "Draw flowcharts from structured English descriptions or pseudocode.",
+            "Describe and use stepwise refinement to detail algorithms.",
+            "Use logic statements to define parts of algorithm solutions."
+          ]
+        }
+      }
+    },
+    "10": {
+      "title": "Data Types and Structures",
+      "subtopics": {
+        "10.1": {
+          "title": "Data Types and Records",
+          "bullets": [
+            "Select and use appropriate data types (integer, real, char, string, Boolean, date).",
+            "Understand the purpose of record structures.",
+            "Write pseudocode to define, read from, and save data to record structures."
+          ]
+        },
+        "10.2": {
+          "title": "Arrays",
+          "bullets": [
+            "Use technical terms associated with arrays (index, upper/lower bound).",
+            "Select suitable data structures (1D or 2D arrays) for given tasks.",
+            "Write pseudocode for 1D and 2D arrays.",
+            "Write pseudocode to process array data (sorting using bubble sort, searching using linear search)."
+          ]
+        },
+        "10.3": {
+          "title": "Files",
+          "bullets": [
+            "Understand why files are needed.",
+            "Write pseudocode to handle text files with one or more lines."
+          ]
+        },
+        "10.4": {
+          "title": "Introduction to Abstract Data Types (ADT)",
+          "bullets": [
+            "Understand that an ADT is a collection of data and operations on that data.",
+            "Understand that stacks, queues, and linked lists are examples of ADTs.",
+            "Describe key features of stacks, queues, and linked lists, justifying their use for given situations.",
+            "Use stacks, queues, and linked lists to store data (no pseudocode required, but should be able to add, edit, and delete data).",
+            "Describe how queues, stacks, and linked lists can be implemented using arrays."
+          ]
+        }
+      }
+    },
+    "11": {
+      "title": "Programming",
+      "subtopics": {
+        "11.1": {
+          "title": "Programming Basics",
+          "bullets": [
+            "Implement and write pseudocode from given designs (flowcharts or structured English).",
+            "Write pseudocode statements for declaration/initialization of constants, declaration of variables, assignment of values, expressions using arithmetic/logical operators, keyboard input, and console output.",
+            "Use built-in functions and library routines (any unspecified functions will be provided)."
+          ]
+        },
+        "11.2": {
+          "title": "Constructs",
+          "bullets": [
+            "Use pseudocode to write IF statements (including ELSE and nested IFs), CASE structures, count-controlled loops, post-condition loops, and pre-condition loops.",
+            "Justify choosing one loop structure over others for solving a problem."
+          ]
+        },
+        "11.3": {
+          "title": "Structured Programming",
+          "bullets": [
+            "Define and use procedures (explain appropriate use, use parameters, pass parameters by reference or value).",
+            "Define and use functions (explain appropriate use, function use in expressions).",
+            "Use terminology associated with procedures and functions (header, interface, parameter, argument, return value).",
+            "Write efficient pseudocode."
+          ]
+        }
+      }
+    },
+    "12": {
+      "title": "Software Development",
+      "subtopics": {
+        "12.1": {
+          "title": "Program Development Life cycle",
+          "bullets": [
+            "Understand the purpose of a development life cycle.",
+            "Understand the need for different life cycles (waterfall, iterative, RAD).",
+            "Describe principles, benefits, and drawbacks of each life cycle type.",
+            "Understand analysis, design, coding, testing, and maintenance stages."
+          ]
+        },
+        "12.2": {
+          "title": "Program Design",
+          "bullets": [
+            "Use structure charts to decompose problems into sub-tasks and express parameters passed between modules/procedures/functions.",
+            "Describe the purpose of a structure chart.",
+            "Construct a structure chart for a given problem.",
+            "Derive pseudocode from a structure chart.",
+            "Understand the purpose of state-transition diagrams."
+          ]
+        },
+        "12.3": {
+          "title": "Program Testing and Maintenance",
+          "bullets": [
+            "Understand ways of exposing and avoiding faults (syntax errors, logic errors, run-time errors).",
+            "Correct identified errors.",
+            "Understand testing methods (dry run, walkthrough, white-box, black-box, integration, alpha, beta, acceptance, stub), selecting appropriate data for a given method.",
+            "Understand the need for a test strategy and plan, and their contents.",
+            "Choose appropriate test data (normal, abnormal, extreme/boundary).",
+            "Understand the need for ongoing system maintenance and the differences between maintenance types (perfective, adaptive, corrective).",
+            "Analyze existing programs and make amendments to enhance functionality."
+          ]
+        }
+      }
+    },
+    "13": {
+      "title": "Data Representation",
+      "subtopics": {
+        "13.1": {
+          "title": "User-defined data types",
+          "bullets": [
+            "Understand why user-defined types are necessary.",
+            "Define and use non-composite types (enumerated, pointer).",
+            "Define and use composite data types (set, record, class/object).",
+            "Choose and design appropriate user-defined data types for given problems."
+          ]
+        },
+        "13.2": {
+          "title": "File organisation and access",
+          "bullets": [
+            "Understand file organization methods (serial, sequential, random), selecting an appropriate method for a given problem.",
+            "Understand file access methods (sequential access for serial and sequential files, direct access for sequential and random files).",
+            "Understand hashing algorithms, describing and using them to read from and write data to random/sequential files."
+          ]
+        },
+        "13.3": {
+          "title": "Floating-point numbers, representation and manipulation",
+          "bullets": [
+            "Describe the format of binary floating-point real numbers (using two's complement).",
+            "Understand effects of changing bit allocation to mantissa and exponent.",
+            "Convert between binary floating-point real numbers and denary.",
+            "Normalize floating-point numbers and understand the reasons for normalization.",
+            "Understand consequences of binary representation being an approximation (in certain cases).",
+            "Understand how underflow and overflow can occur.",
+            "Understand that binary representations can give rise to rounding errors."
+          ]
+        }
+      }
+    },
+    "14": {
+      "title": "Communication and internet technologies",
+      "subtopics": {
+        "14.1": {
+          "title": "Protocols",
+          "bullets": [
+            "Understand why protocols are essential for communication between computers.",
+            "Understand how protocol implementation can be viewed as a stack, where each layer has its own functionality.",
+            "Understand the TCP/IP protocol suite (Application, Transport, Internet, Link layers, purpose and function of each layer, application when a message is sent from one host to another).",
+            "Understand protocols (HTTP, FTP, POP3, IMAP, SMTP, BitTorrent) and their purposes."
+          ]
+        },
+        "14.2": {
+          "title": "Circuit switching, packet switching",
+          "bullets": [
+            "Understand circuit switching (benefits, drawbacks, applications).",
+            "Understand packet switching (benefits, drawbacks, applications).",
+            "Understand the function of a router in packet switching.",
+            "Explain how packet switching is used to pass messages across networks, including the internet."
+          ]
+        }
+      }
+    },
+    "15": {
+      "title": "Hardware and Virtual Machines",
+      "subtopics": {
+        "15.1": {
+          "title": "Processors, Parallel Processing and Virtual Machines",
+          "bullets": [
+            "Understand RISC and CISC processors, and their differences.",
+            "Understand interrupt handling on CISC and RISC processors.",
+            "Understand the importance/use of pipelining and registers in RISC processors.",
+            "Understand the four basic computer architectures (SISD, SIMD, MISD, MIMD).",
+            "Understand the characteristics of massively parallel computers.",
+            "Understand the concept of a virtual machine, give examples of its role, and understand its benefits and limitations."
+          ]
+        },
+        "15.2": {
+          "title": "Boolean Algebra and Logic Circuits",
+          "bullets": [
+            "Produce truth tables for logic circuits (including half adders and full adders).",
+            "Understand flip-flops (SR, JK), drawing logic circuits and deriving truth tables.",
+            "Understand the role of flip-flops as data storage elements.",
+            "Understand Boolean algebra and De Morgan's laws.",
+            "Perform Boolean algebra using De Morgan's laws.",
+            "Simplify logic circuits/expressions using Boolean algebra.",
+            "Understand Karnaugh maps (K-maps) and their benefits.",
+            "Solve logic problems using Karnaugh maps."
+          ]
+        }
+      }
+    },
+    "16": {
+      "title": "System Software",
+      "subtopics": {
+        "16.1": {
+          "title": "Purposes of an Operating System (OS)",
+          "bullets": [
+            "Understand how an OS maximizes resource use.",
+            "Describe how the user interface hides hardware complexities from the user.",
+            "Understand process management (multitasking, process states – running, ready, blocked, scheduling, scheduling routines – round robin, shortest job first, first come first served, shortest remaining time, kernel as interrupt handler, interrupt handling use in low-level scheduling).",
+            "Understand virtual memory, paging, and segmentation for memory management (concepts, differences, page replacement, disk thrashing)."
+          ]
+        },
+        "16.2": {
+          "title": "Translation Software",
+          "bullets": [
+            "Understand how an interpreter executes programs without producing a translated version.",
+            "Understand the stages in program compilation (lexical analysis, syntax analysis, code generation, optimization).",
+            "Understand how language grammar can be expressed using syntax diagrams or BNF notation.",
+            "Understand how Reverse Polish Notation (RPN) can be used to evaluate expressions."
+          ]
+        }
+      }
+    },
+    "17": {
+      "title": "Security",
+      "subtopics": {
+        "17.1": {
+          "title": "Encryption, Encryption Protocols and Digital Certificates",
+          "bullets": [
+            "Understand how encryption works (public key, private key, plain text, cipher text, encryption, symmetric/asymmetric key cryptography).",
+            "Understand how keys are used to send private and verified messages.",
+            "Understand how data is encrypted and decrypted using symmetric and asymmetric cryptography.",
+            "Understand the purpose, benefits, and drawbacks of quantum cryptography.",
+            "Understand Secure Socket Layer (SSL)/Transport Layer Security (TLS) (purpose, use in client-server communication, appropriate situations).",
+            "Understand digital certificates (how acquired and used to produce digital signatures)."
+          ]
+        }
+      }
+    },
+    "18": {
+      "title": "Artificial Intelligence (AI)",
+      "subtopics": {
+        "18.1": {
+          "title": "Artificial Intelligence (AI)",
+          "bullets": [
+            "Understand how graphs can be used to aid AI (purpose and structure of a graph, using A* and Dijkstra's algorithms for graph searches – no algorithm writing required).",
+            "Understand how artificial neural networks have helped with machine learning.",
+            "Understand Deep Learning, Machine Learning, and Reinforcement Learning, and the reasons for using these methods.",
+            "Understand machine learning categories (supervised learning, unsupervised learning).",
+            "Understand back propagation of errors and regression methods in machine learning."
+          ]
+        }
+      }
+    },
+    "19": {
+      "title": "Computational thinking and Problem-solving",
+      "subtopics": {
+        "19.1": {
+          "title": "Algorithms",
+          "bullets": [
+            "Understand linear and binary searching methods, writing algorithms for each.",
+            "Understand conditions necessary for binary search and how its performance varies.",
+            "Understand insertion sort and bubble sort methods, writing algorithms for each.",
+            "Understand performance of sorting routines depending on initial order and number of data items.",
+            "Understand and use ADTs.",
+            "Write algorithms to find, insert, and delete items in linked lists, binary trees, stacks, and queues.",
+            "Understand that a graph is an ADT.  Describe key features and justify its use for given situations (no code writing required).",
+            "Show how ADTs can be implemented from other ADTs.",
+            "Describe ADTs (stack, queue, linked list, dictionary, binary tree) and how they can be implemented.",
+            "Understand comparing algorithms by criteria (time taken, memory used) including Big O notation."
+          ]
+        },
+        "19.2": {
+          "title": "Recursion",
+          "bullets": [
+            "Understand recursion (essential features, expression in programming languages, writing and tracing recursive algorithms, beneficial uses, what a compiler does to translate recursive code, use of stacks and unwinding)."
+          ]
+        }
+      }
+    },
+    "20": {
+      "title": "Further Programming",
+      "subtopics": {
+        "20.1": {
+          "title": "Programming Paradigms",
+          "bullets": [
+            "Understand programming paradigms.",
+            "Understand characteristics of low-level programming (writing low-level code using various addressing modes).",
+            "Understand characteristics of imperative (procedural) programming (variables, constructs, procedures, functions).",
+            "Understand characteristics of object-oriented programming (OOP terminology, designing appropriate classes, writing code demonstrating OOP).",
+            "Understand characteristics of declarative programming (solving problems by writing facts and rules, writing code satisfying goals using facts and rules)."
+          ]
+        },
+        "20.2": {
+          "title": "File Processing and Exception Handling",
+          "bullets": [
+            "Write code to perform file processing operations (opening/closing files, reading/writing records, performing operations on serial, sequential, and random files).",
+            "Understand exceptions and the importance of exception handling.",
+            "Know when to use exception handling.",
+            "Write program code using exception handling."
+          ]
+        }
+      }
+    }
+  }
+}

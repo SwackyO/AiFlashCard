@@ -2,3 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Page background (light & dark) */
+:root {
+    color-scheme: light;
+}
+.dark {
+    color-scheme: dark;
+}
+
+/* Light */
+body {
+    @apply bg-slate-50 text-slate-900;
+    background:
+            radial-gradient(1200px 600px at 20% -10%, rgba(59,130,246,.07), transparent 60%),
+            radial-gradient(900px 500px at 85% 10%, rgba(99,102,241,.07), transparent 60%),
+            linear-gradient(to bottom, #f8fafc, #ffffff 40%);
+}
+/* Dark */
+.dark body {
+    @apply bg-surface text-surface-fg;
+    background:
+            radial-gradient(1200px 600px at 20% -10%, rgba(59,130,246,.12), transparent 60%),
+            radial-gradient(900px 500px at 85% 10%, rgba(99,102,241,.12), transparent 60%),
+            linear-gradient(to bottom, #0b1220, #0b1220 40%);
+}
+
+/* Reusable UI helpers */
+.container {
+    @apply max-w-6xl mx-auto px-4;
+}
+.btn {
+    @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium transition;
+    @apply bg-brand text-white hover:bg-brand-hover;
+    @apply shadow-sm focus:outline-none focus:ring-2 focus:ring-brand/40;
+}
+.btn-outline {
+    @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium transition;
+    @apply border border-slate-300 text-slate-800 hover:bg-slate-100;
+    @apply dark:border-slate-700 dark:text-surface-fg dark:hover:bg-slate-800/60;
+}
+.btn-ghost {
+    @apply inline-flex items-center justify-center rounded-xl px-3 py-1.5 font-medium transition;
+    @apply text-slate-600 hover:bg-slate-100;
+    @apply dark:text-slate-300 dark:hover:bg-slate-800/60;
+}
+.input {
+    @apply rounded-xl border px-3 py-2 text-sm outline-none transition w-full;
+    @apply border-slate-300 bg-white focus:ring-2 focus:ring-slate-300;
+    @apply dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:focus:ring-slate-700;
+}
+
+.card {
+  @apply mx-auto w-full rounded-2xl border p-6 md:p-8 shadow-card;
+  @apply border-slate-200 bg-white;                 /* solid in light */
+  @apply dark:border-slate-800 dark:bg-panel;       /* solid dark */
+}
+.chip {
+    @apply inline-flex items-center gap-1 rounded-full border px-3 py-1 text-xs font-medium tracking-wide;
+    @apply border-slate-200 bg-slate-50 text-slate-700;
+    @apply dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300;
+}
