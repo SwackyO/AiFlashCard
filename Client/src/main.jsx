@@ -1,17 +1,30 @@
-// src/main.jsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { useEffect, useState } from 'react';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import App from './App.jsx';
-import './index.css';
-import { ToastProvider } from './components/ui/Toast.jsx';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        <ToastProvider>
-        <BrowserRouter>   {/* 👈 provides Router context */}
-            <App />
-        </BrowserRouter>
-        </ToastProvider>
-    </React.StrictMode>
+import AuthPage from './pages/AuthPage.jsx';
+import { me } from './api/auth';
+import App from './App.jsx'; // or DecksPage
+import './index.css';
+
+function Root() {
+    const [authed, setAuthed] = useState(false);
+    const [checking, setChecking] = useState(true);
+
+    useEffect(() => {
+        (async () => {
+            const { ok } = await me();
+            setAuthed(ok);
+            setChecking(false);
+        })();
+    }, []);
+
+    if (checking) return <div style={{ padding: 24 }}>Loading…</div>;
+    return authed ? <App /> : <AuthPage onAuthed={() => setAuthed(true)} />;
+}
+
+createRoot(document.getElementById('root')).render(
+    <BrowserRouter>
+        <Root />
+    </BrowserRouter>
 );

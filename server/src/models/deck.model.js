@@ -1,4 +1,3 @@
-// models/Deck.js
 import mongoose from 'mongoose';
 
 const CardSchema = new mongoose.Schema({
@@ -17,12 +16,10 @@ const DeckSchema = new mongoose.Schema({
     difficulty:  { type: String, default: 'mixed' },
     count: { type: Number, default: 8 },
     cards: { type: [CardSchema], default: [] },
-    // 👇 important: default as function, Map of String
     progress: { type: Map, of: String, default: () => ({}) },
-    userId: { type: String },
+    userId: { type: String, required: true, index: true },   // <-- now required
 }, { timestamps: true });
 
-// Normalize Map→plain object when sending JSON
 DeckSchema.set('toJSON', {
     transform(_doc, ret) {
         if (ret.progress && ret.progress instanceof Map) {

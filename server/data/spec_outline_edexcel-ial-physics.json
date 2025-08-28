@@ -6,97 +6,92 @@
     "1": {
       "title": "Unit 1: Marketing and people",
       "subtopics": {
-        "1.1": {
+        "1.3.1": {
           "title": "Meeting customer needs",
           "bullets": [
-            "Identify and anticipate customer needs and wants using quantitative and qualitative data.",
-            "Quantify likely demand.",
-            "Gain insight into consumer behaviour.",
-            "Use primary market research methods (surveys, focus groups, interviews, product trials).",
-            "Use secondary market research methods (websites, reports, databases).",
-            "Employ random, quota, and stratified sampling methods.",
-            "Understand product and market orientation.",
-            "Use market mapping and segmentation.",
-            "Identify a product or service's competitive advantage.",
-            "Explain the purpose of product differentiation.",
-            "Add value to products/services."
-          ]
-        },
-        "1.2": {
-          "title": "The market",
-          "bullets": [
-            "Identify characteristics of mass and niche markets.",
-            "Determine market size and market share.",
-            "Understand brand development.",
-            "Analyze dynamic markets (online retailing, market changes, innovation).",
+            "Describe mass and niche markets: characteristics, size, share, brands.",
+            "Explain dynamic markets: online retailing, market change, innovation, adaptation.",
             "Explain how competition affects the market.",
             "Distinguish between risk and uncertainty.",
-            "Identify factors that change demand (substitute/complementary goods, income, preferences).",
-            "Identify factors that change supply (production costs, technology, taxes, subsidies).",
-            "Illustrate and interpret demand and supply diagrams.",
-            "Calculate and interpret price elasticity of demand.",
-            "Explain factors influencing PED and its significance to businesses.",
-            "Calculate and interpret the relationship between PED and total revenue.",
-            "Calculate and interpret income elasticity of demand.",
-            "Classify goods as normal or inferior.",
-            "Explain factors influencing YED and its significance to businesses."
+            "Describe primary and secondary market research data (quantitative and qualitative) uses.",
+            "List methods of primary market research: surveys, focus groups, interviews, trials.",
+            "List methods of secondary market research: websites, media, reports, databases.",
+            "Describe sampling methods: random, quota, stratified.",
+            "Explain product and market orientation.",
+            "Explain market mapping and segmentation.",
+            "Explain competitive advantage and product differentiation.",
+            "Explain adding value to products/services."
           ]
         },
-        "1.3": {
+        "1.3.2": {
+          "title": "The market",
+          "bullets": [
+            "Identify factors changing demand: substitute/complement prices, incomes, tastes, marketing, demographics, shocks, seasonality.",
+            "Identify factors changing supply: production costs, technology, taxes, subsidies, shocks.",
+            "Explain the interaction of demand and supply.",
+            "Draw and interpret demand and supply diagrams showing changes.",
+            "Calculate and interpret price elasticity of demand (PED).",
+            "Identify factors influencing PED and its significance for businesses.",
+            "Calculate and interpret the relationship between PED and total revenue.",
+            "Calculate and interpret income elasticity of demand (YED).",
+            "Define normal and inferior goods.",
+            "Identify factors influencing YED and its significance for businesses."
+          ]
+        },
+        "1.3.3": {
           "title": "Marketing mix and strategy",
           "bullets": [
-            "Define marketing objectives (market share, revenue, brand building).",
-            "Understand the product life cycle and extension strategies.",
-            "Use the Boston Matrix and product portfolio.",
-            "Explain the marketing mix concept.",
-            "Develop marketing strategies for different markets (mass, niche, B2B, B2C).",
-            "Analyze consumer behaviour and customer loyalty.",
-            "Understand the design mix (function, aesthetics, cost).",
-            "Adapt the design mix to reflect social trends (resource depletion, ethical sourcing).",
+            "Define marketing objectives: market share, revenue, brand building.",
+            "Explain the product life cycle and extension strategies.",
+            "Explain the Boston Matrix and product portfolio.",
+            "Explain the marketing mix.",
+            "Describe marketing strategies for different markets: mass, niche, B2B, B2C.",
+            "Explain consumer behavior and customer loyalty.",
+            "Explain the design mix: function, aesthetics, cost.",
+            "Explain changes in the design mix reflecting social trends (resource depletion, ethical sourcing).",
             "Identify types of promotion and branding.",
-            "Explain the benefits of strong branding (added value, pricing, PED).",
-            "Develop branding strategies (USPs, advertising, sponsorship, social media).",
-            "Adapt branding and promotion to reflect social trends (viral marketing, social media).",
-            "Identify types of pricing strategy (cost-plus, skimming, penetration, predatory, competitive, psychological).",
-            "Explain factors determining pricing strategies (USPs, PED, competition, brand, life cycle, costs).",
-            "Adapt pricing to reflect social trends (online sales, price comparison sites).",
-            "Identify distribution channels.",
+            "Explain benefits of strong branding: added value, pricing, reduced PED.",
+            "Explain ways to build a brand: USPs, advertising, sponsorship, social media.",
+            "Explain changes in branding/promotion reflecting social trends: viral marketing, social media, emotional branding.",
+            "Identify types of pricing strategy: cost-plus, skimming, penetration, predatory, competitive, psychological.",
+            "Identify factors determining pricing strategy: USPs, PED, competition, brand, life cycle stage, costs.",
+            "Explain changes in pricing reflecting social trends: online sales, price comparison sites.",
+            "Explain distribution channels: four-stage, three-stage, two-stage.",
             "Explain changes in distribution methods."
           ]
         },
-        "1.4": {
+        "1.3.4": {
           "title": "Managing people",
           "bullets": [
-            "Assess staff as an asset and a cost.",
-            "Understand a flexible workforce (multi-skilling, part-time, zero-hour contracts).",
+            "Contrast staff as an asset and as a cost.",
+            "Explain a flexible workforce: multi-skilling, part-time, temporary, zero-hour contracts, flexible hours, outsourcing.",
             "Distinguish between dismissal and redundancy.",
-            "Analyze employer/employee relationships (individual, collective bargaining).",
-            "Describe the recruitment and selection process (internal vs. external).",
-            "Calculate the costs of recruitment, selection, and training.",
-            "Identify types of training (induction, on-the-job, off-the-job).",
-            "Describe organizational structures (hierarchy, chain of command, span of control, centralized/decentralized).",
-            "Identify types of organizational structure (tall, flat, matrix).",
-            "Explain the impact of organizational structures on efficiency and motivation.",
+            "Describe employer/employee relationships: individual, collective bargaining.",
+            "Describe the recruitment and selection process: internal vs. external.",
+            "Explain costs of recruitment, selection, training.",
+            "Identify types of training: induction, on-the-job, off-the-job.",
+            "Explain organizational structure: hierarchy, chain of command, span of control, centralization/decentralization.",
+            "Identify types of structure: tall, flat, matrix.",
+            "Explain the impact of different structures on efficiency and motivation.",
             "Explain the importance of employee motivation.",
-            "Describe motivation theories (Taylor, Mayo, Maslow, Herzberg).",
-            "Identify financial methods to improve performance (piecework, commission, bonus).",
-            "Identify non-financial methods to improve performance (delegation, empowerment, teamwork).",
-            "Define leadership and distinguish it from management.",
-            "Identify leadership styles (autocratic, paternalistic, democratic, laissez-faire).",
-            "Explain the challenges of transitioning from entrepreneur to leader."
+            "Describe motivation theories: Taylor, Mayo, Maslow, Herzberg.",
+            "Identify financial methods to improve performance: piecework, commission, bonus, profit share, performance-related pay.",
+            "Identify non-financial methods to improve performance: delegation, consultation, empowerment, teamwork, flexible working, job enrichment, rotation, enlargement.",
+            "Explain leadership, distinguishing from management.",
+            "Identify leadership styles: autocratic, paternalistic, democratic, laissez-faire.",
+            "Explain difficulties of moving from entrepreneur to leader."
           ]
         },
-        "1.5": {
+        "1.3.5": {
           "title": "Entrepreneurs and leaders",
           "bullets": [
-            "Explain the role of an entrepreneur (creating, running, expanding a business).",
-            "Understand innovation within a business (intrapreneurship).",
+            "Explain the role of an entrepreneur: creating, setting up, running, expanding a business.",
+            "Explain innovation within a business (intrapreneurship).",
             "Identify barriers to entrepreneurship.",
-            "Anticipate risk and uncertainty in the business environment.",
+            "Explain anticipating risk and uncertainty.",
             "Identify characteristics and skills required of entrepreneurs.",
-            "Explain reasons for setting up businesses (financial and non-financial motives).",
-            "Define business objectives (survival, profit maximization, sales maximization, market share).",
-            "Understand other business objectives (cost efficiency, employee welfare, social objectives).",
+            "Identify reasons for setting up businesses: financial (profit maximization, satisficing), non-financial (ethics, social entrepreneurship, independence).",
+            "Identify business objectives: survival, profit maximization, sales maximization, market share, cost efficiency, employee welfare, customer satisfaction, social objectives.",
             "Explain opportunity cost and trade-offs."
           ]
         }
@@ -105,90 +100,85 @@
     "2": {
       "title": "Unit 2: Managing business activities",
       "subtopics": {
-        "2.1": {
+        "2.3.1": {
           "title": "Planning a business and raising finance",
           "bullets": [
             "Describe the content and uses of a business plan.",
-            "Identify internal sources of finance (owner's capital, retained profit, sale of assets).",
-            "Identify external sources of finance (family/friends, banks, business angels, crowdfunding).",
-            "Identify methods of finance (loans, share capital, venture capital, overdrafts).",
-            "Explain the suitability of different sources/methods of finance for different circumstances.",
-            "Identify forms of business (sole trader, partnership, private limited company, franchise).",
-            "Understand growth to public limited companies and stock market flotation.",
-            "Explain the implications of limited and unlimited liability."
+            "Identify sources of internal finance: owner's capital, retained profit, sale of assets.",
+            "Identify sources of external finance and their suitability: family/friends, banks, peer-to-peer, business angels, crowdfunding, other businesses.",
+            "Identify methods of finance and their suitability: loans, share capital, venture capital, overdrafts, leasing, trade credit, grants.",
+            "Describe forms of business: sole trader, partnership, private limited company (Ltd), franchising, social enterprise, lifestyle businesses, online businesses.",
+            "Explain growth to public limited companies (plc) and stock market flotation.",
+            "Explain the implications of limited and unlimited liability: advantages and disadvantages.",
+            "Explain finance appropriate for limited and unlimited liability businesses."
           ]
         },
-        "2.2": {
+        "2.3.2": {
           "title": "Financial planning",
           "bullets": [
             "Calculate sales volume and revenue.",
             "Calculate fixed, variable, total, and average costs.",
-            "Identify ways to improve sales volume and revenue.",
+            "Explain ways to improve sales volume and revenue.",
             "Explain the purpose of sales forecasts.",
-            "Identify factors affecting sales forecasts (consumer trends, economic variables, competition).",
-            "Explain difficulties in sales forecasting.",
-            "Calculate contribution (selling price - variable cost per unit).",
-            "Calculate the break-even point.",
-            "Calculate margin of safety.",
+            "Identify factors affecting sales forecasts: consumer trends, economic variables, competitor actions.",
+            "Explain difficulties of sales forecasting.",
+            "Explain contribution: selling price − variable cost per unit.",
+            "Explain break-even point calculation and its interpretation.",
+            "Explain margin of safety.",
             "Interpret break-even charts.",
-            "Explain the limitations of break-even analysis.",
-            "Construct and interpret cash flow forecasts.",
-            "Explain the uses and limitations of cash flow forecasts.",
-            "Explain the purposes of budgets.",
-            "Identify types of budget (historical figures, zero-based).",
-            "Conduct variance analysis.",
-            "Explain difficulties in budgeting."
+            "Explain limitations of break-even analysis.",
+            "Construct and interpret simple cash-flow forecasts.",
+            "Explain uses and limitations of cash-flow forecasts.",
+            "Explain purposes of budgets.",
+            "Identify types of budget: based on historical figures, zero-based.",
+            "Explain variance analysis.",
+            "Explain difficulties of budgeting."
           ]
         },
-        "2.3": {
+        "2.3.3": {
           "title": "Managing finance",
           "bullets": [
-            "Calculate gross profit, operating profit, and profit for the year.",
-            "Identify ways to increase profits.",
-            "Interpret the statement of comprehensive income (profit and loss account).",
-            "Calculate gross profit margin, operating profit margin, and net profit margin.",
-            "Identify ways to improve profitability.",
+            "Calculate gross profit, operating profit, profit for the year (net profit).",
+            "Explain ways to increase profits.",
+            "Explain statement of comprehensive income (profit and loss account): measuring profitability (gross profit margin, operating profit margin, net profit margin), ways to improve profitability.",
             "Distinguish between profit and cash.",
-            "Interpret the statement of financial position (balance sheet).",
-            "Calculate current ratio and acid test ratio.",
-            "Identify ways to improve liquidity.",
-            "Explain working capital management.",
-            "Identify internal causes of business failure (cash flow, sales estimation, overtrading).",
-            "Identify external causes of business failure (market conditions, competition, economic factors)."
+            "Explain statement of financial position (balance sheet): measuring liquidity (current ratio, acid test ratio), ways to improve liquidity (assets, supplier credit terms, factoring, inventory JIT).",
+            "Explain working capital and its management.",
+            "Identify internal causes of business failure: poor cash flow, sales overestimation, overtrading, poor inventory, marketing, quality.",
+            "Identify external causes of business failure: market conditions, competition, economic factors, exchange rates, interest rates, regulations, supplier problems, natural phenomena."
           ]
         },
-        "2.4": {
+        "2.3.4": {
           "title": "Resource management",
           "bullets": [
-            "Identify methods of production (job, batch, flow, cell).",
-            "Calculate and explain productivity (output per unit of input).",
-            "Identify factors influencing productivity.",
-            "Explain the link between productivity and competitiveness.",
-            "Identify ways to improve productivity.",
-            "Define efficiency (minimum average cost).",
-            "Identify factors influencing efficiency.",
-            "Identify ways to improve efficiency.",
-            "Distinguish between labour- and capital-intensive production.",
+            "Identify methods of production: job, batch, flow, cell.",
+            "Explain productivity: output per unit of input, factors influencing productivity, link between productivity and competitiveness, ways to improve productivity.",
+            "Explain efficiency: production at minimum average cost, factors influencing efficiency, ways to improve efficiency.",
+            "Distinguish between labor- and capital-intensive production.",
             "Explain competitive advantage from short product lead times.",
             "Calculate capacity utilization.",
-            "Explain the implications of under- and over-utilization of capacity.",
-            "Identify ways to improve capacity utilization.",
+            "Explain implications of under- and over-utilization of capacity.",
+            "Explain ways of improving capacity utilization.",
             "Interpret inventory control diagrams.",
-            "Explain buffer inventory, JIT, and waste minimization.",
+            "Explain buffer inventory.",
+            "Explain implications of poor inventory control.",
+            "Explain Just in Time (JIT).",
+            "Explain waste minimization.",
             "Explain competitive advantage from lean production.",
-            "Explain quality management (control, assurance, circles, TQM, Kaizen).",
+            "Explain quality management: control, assurance, circles.",
+            "Explain Total Quality Management (TQM).",
+            "Explain continuous improvement (Kaizen).",
             "Explain competitive advantage from quality management."
           ]
         },
-        "2.5": {
+        "2.3.5": {
           "title": "External influences",
           "bullets": [
-            "Explain the effects on businesses of changes in inflation, exchange rates, interest rates, taxation, and the business cycle.",
-            "Explain how businesses respond to changes in economic factors.",
-            "Explain the effects of legislation on businesses (consumer, employee, environmental protection).",
-            "Explain the effects of competition policy, health and safety, and intellectual property rights.",
-            "Explain the effects on businesses of competitor numbers, size, and behaviour.",
-            "Identify ways for small businesses to compete in a competitive market."
+            "Explain the effects on businesses of changes in: inflation rate, exchange rates, interest rates, taxation, government spending, business cycle.",
+            "Explain how businesses respond to economic changes.",
+            "Explain the effects on businesses of: consumer protection, employee protection, environmental protection, competition policy, health and safety, intellectual property rights.",
+            "Explain the effects of competition: competitor numbers, size, behavior.",
+            "Explain ways for small businesses to compete in a competitive market."
           ]
         }
       }
@@ -196,88 +186,87 @@
     "3": {
       "title": "Unit 3: Business decisions and strategy",
       "subtopics": {
-        "3.1": {
+        "3.3.1": {
           "title": "Business objectives and strategy",
           "bullets": [
-            "Develop corporate objectives from mission statements/aims.",
+            "Explain development of corporate objectives from mission statements/corporate aims.",
             "Critically appraise mission statements.",
-            "Develop corporate strategy using Ansoff's Matrix and Porter's Strategic Matrix.",
+            "Explain development of corporate strategy using Ansoff's Matrix and Porter's Strategic Matrix.",
             "Explain the aim of portfolio analysis.",
             "Explain the effect of strategic and tactical decisions on resources.",
-            "Conduct SWOT analysis.",
-            "Analyze PESTLE factors.",
-            "Analyze the changing competitive environment using Porter's five forces."
+            "Explain SWOT analysis: internal (strengths, weaknesses), external (opportunities, threats).",
+            "Explain PESTLE analysis: political, economic, social, technological, legal, environmental.",
+            "Explain the changing competitive environment and Porter's five forces."
           ]
         },
-        "3.2": {
+        "3.3.2": {
           "title": "Business growth",
           "bullets": [
-            "Identify objectives of growth (economies of scale, market power, market share, profitability).",
-            "Distinguish between organic and inorganic growth.",
+            "Identify objectives of growth: economies of scale, market power, market share, profitability.",
+            "Distinguish between inorganic and organic growth.",
             "Identify methods of organic growth.",
             "Explain advantages and disadvantages of organic growth.",
-            "Explain mergers and takeovers (reasons, distinction, integration types, financial risks/rewards).",
+            "Explain mergers and takeovers: reasons, distinctions, horizontal/vertical integration, conglomerates, financial risks/rewards.",
             "Explain advantages and disadvantages of inorganic growth.",
-            "Identify problems arising from growth (diseconomies of scale, communication, overtrading)."
+            "Identify problems arising from growth: diseconomies of scale, internal communication, overtrading."
           ]
         },
-        "3.3": {
+        "3.3.3": {
           "title": "Decision-making techniques",
           "bullets": [
-            "Calculate and interpret time-series analysis (moving averages).",
-            "Interpret scatter graphs and lines of best fit.",
+            "Calculate and interpret time-series analysis: moving averages.",
+            "Interpret scatter graphs and lines of best fit: extrapolation.",
             "Explain limitations of quantitative sales forecasting.",
-            "Calculate and interpret simple payback, ARR, and NPV.",
-            "Explain limitations of investment appraisal techniques.",
-            "Construct and interpret decision tree diagrams.",
+            "Explain investment appraisal techniques: simple payback, average rate of return, net present value.",
+            "Calculate and interpret figures generated by these techniques.",
+            "Explain limitations of these techniques.",
+            "Construct and interpret simple decision-tree diagrams.",
             "Calculate and interpret figures generated by decision trees.",
             "Explain limitations of using decision trees.",
-            "Explain the nature and purpose of critical path analysis.",
+            "Explain nature and purpose of critical path analysis.",
             "Complete and interpret simple networks to identify the critical path.",
-            "Calculate earliest start time, latest finish time, and total float.",
+            "Calculate earliest start time, latest finish time, total float.",
             "Explain limitations of using critical path analysis.",
-            "Explain the nature and purpose of contribution.",
+            "Explain nature and purpose of contribution.",
             "Calculate and interpret contribution.",
-            "Use contribution as a decision-making technique."
+            "Explain use of contribution as a decision-making technique."
           ]
         },
-        "3.4": {
+        "3.3.4": {
           "title": "Influences on business decisions",
           "bullets": [
-            "Describe strong and weak corporate cultures.",
-            "Classify company cultures (power, role, task, person).",
+            "Explain strong and weak corporate cultures.",
+            "Classify company cultures: power, role, task, person.",
             "Explain how corporate culture is formed.",
             "Explain difficulties in changing an established culture.",
-            "Distinguish between stakeholder and shareholder models.",
+            "Explain the stakeholder model vs. the shareholder model.",
             "Identify internal and external stakeholders and their objectives.",
             "Explain stakeholder and shareholder influences.",
-            "Explain the potential for conflict between profit-based and wider objectives.",
-            "Explain the ethics of strategic decisions (trade-offs between profit and ethics).",
-            "Discuss pay and rewards.",
+            "Explain potential conflicts between profit-based (shareholder) and wider objectives (stakeholder).",
+            "Explain ethics of strategic decisions: trade-offs between profit and ethics.",
+            "Explain pay and rewards.",
             "Explain corporate social responsibility (CSR)."
           ]
         },
-        "3.5": {
+        "3.3.5": {
           "title": "Assessing competitiveness",
           "bullets": [
-            "Interpret financial statements (statement of comprehensive income, statement of financial position).",
-            "Calculate profitability ratios (gross profit margin, net profit margin).",
-            "Calculate liquidity ratios (current ratio, acid test ratio).",
-            "Calculate gearing ratio and ROCE.",
-            "Interpret ratios to make business decisions.",
-            "Explain the limitations of ratio analysis.",
-            "Calculate and interpret human resource data (labour productivity, turnover, absenteeism).",
-            "Explain limitations of HR calculations.",
-            "Identify HR strategies to improve productivity and retention (financial rewards, employee share ownership)."
+            "Interpret statement of comprehensive income (profit and loss account): key information, stakeholder interest.",
+            "Interpret statement of financial position (balance sheet): key information, stakeholder interest.",
+            "Calculate and interpret profitability ratios (gross profit margin, profit for the year margin).",
+            "Calculate and interpret liquidity ratios (current and acid test ratios).",
+            "Calculate and interpret gearing ratio and return on capital employed (ROCE).",
+            "Explain limitations of ratio analysis.",
+            "Calculate and interpret human resource data: labor productivity, turnover, retention, absenteeism.",
+            "Explain limitations of these calculations.",
+            "Identify human resource strategies to increase productivity and retention, reduce turnover and absenteeism: financial rewards, employee share ownership, consultation strategies, empowerment strategies."
           ]
         },
-        "3.6": {
+        "3.3.6": {
           "title": "Managing change",
           "bullets": [
-            "Identify key factors in change (organizational culture, size, speed, resistance).",
-            "Explain transformative leadership.",
-            "Identify key risks through risk assessment (natural disasters, IT failure, loss of staff).",
-            "Plan for risk mitigation (business continuity, succession planning)."
+            "Identify key factors in change: organizational culture, size, time/speed, managing resistance, transformative leadership.",
+            "Explain contingency planning: identifying key risks (natural disasters, IT failures, staff loss), planning for risk mitigation (business continuity, succession planning)."
           ]
         }
       }
@@ -285,58 +274,60 @@
     "4": {
       "title": "Unit 4: Global business",
       "subtopics": {
-        "4.1": {
+        "4.3.1": {
           "title": "Globalisation",
           "bullets": [
-            "Identify characteristics of developed, developing, and emerging economies.",
-            "Analyze the growing economic power of countries.",
-            "Explain the implications of economic growth for individuals and businesses (trade, employment).",
-            "Use indicators of growth (GDP, GDP per capita, HDI).",
+            "Describe characteristics of developed, developing, and emerging economies.",
+            "Explain the growing economic power of countries in Asia, Africa, etc.",
+            "Explain implications of economic growth for individuals and businesses: trade opportunities, employment.",
+            "Identify indicators of growth: GDP, GDP per capita, HDI.",
             "Explain exports and imports.",
-            "Explain the implications of increasing specialization.",
+            "Explain implications of increasing specialization.",
             "Explain foreign direct investment (FDI) and its link to business growth.",
-            "Identify factors contributing to increased globalization (trade liberalization, political change).",
-            "Explain the role of the WTO and MNCs.",
-            "Explain reasons for protectionism (tariffs, quotas, other trade barriers).",
+            "Identify factors contributing to increased globalization: trade liberalization, political change, reduced transport/communication costs, MNCs, investment flows, migration, global labor force, structural change.",
+            "Explain the impact of increased globalization on businesses.",
+            "Explain reasons for protectionism.",
+            "Explain tariffs and import quotas.",
+            "Identify other trade barriers: government legislation, domestic subsidies.",
             "Explain the impact of protectionism on businesses.",
-            "Explain the expansion of trading blocs (EU, ASEAN, NAFTA).",
+            "Explain expansion of trading blocs: EU, ASEAN, NAFTA.",
             "Explain the impact of trading blocs on businesses."
           ]
         },
-        "4.2": {
+        "4.3.2": {
           "title": "Global markets and business expansion",
           "bullets": [
-            "Identify push and pull factors prompting trade (saturated markets, competition, increased sales).",
+            "Identify push factors prompting trade: saturated markets, competition.",
+            "Identify pull factors prompting trade: increased sales/profitability, risk spreading, economies of scale.",
             "Explain cost competitiveness through offshoring and outsourcing.",
             "Explain extending the product life cycle.",
-            "Identify factors to consider when assessing a country as a market (income, ease of doing business).",
-            "Apply Porter's five forces to assess potential markets.",
-            "Identify factors to consider when assessing a country as a production location (production costs, labour).",
-            "Explain reasons for global mergers, takeovers, or joint ventures (risk spreading, new markets).",
+            "Identify factors to consider when assessing a country as a market: disposable income, ease of doing business, infrastructure, political stability, exchange rates.",
+            "Explain application of Porter's five forces in assessing potential markets.",
+            "Identify factors to consider when assessing a country as a production location: production costs, labor skills/availability, infrastructure, trade bloc location, government incentives, ease of doing business, political stability, natural resources, ROI.",
+            "Identify reasons for global mergers, takeovers, or joint ventures: risk spreading, economies of scale, entering new markets/trade blocs, acquiring brand names/patents, securing resources/supplies, maintaining/increasing competitiveness, reducing competition, using local knowledge, government/legal requirements, accessing supply chains/distribution networks, sharing costs/risks.",
             "Explain the impact of exchange rate movements on businesses.",
             "Explain the impact of skill shortages on international competitiveness."
           ]
         },
-        "4.3": {
+        "4.3.3": {
           "title": "Global marketing",
           "bullets": [
             "Explain global marketing strategy and glocalization.",
-            "Identify different marketing approaches (domestic/ethnocentric, international/polycentric).",
-            "Adapt the marketing mix to global markets.",
-            "Apply Ansoff's and Porter's matrices to global marketing decisions.",
-            "Explain cultural diversity and its importance in global niche markets.",
-            "Adapt the marketing mix to suit global niches.",
-            "Explain cultural/social factors for businesses (cultural differences, language, branding)."
+            "Identify different marketing approaches: domestic/ethnocentric, mixed/geocentric, international/polycentric.",
+            "Explain application and adaptation of the marketing mix (4Ps) to global markets.",
+            "Explain application of Ansoff's and Porter's matrices to global marketing decisions.",
+            "Explain cultural diversity and features of global niche markets.",
+            "Explain application and adaptation of the marketing mix to global niches.",
+            "Identify considerations for businesses regarding cultural factors: cultural differences, tastes, language, branding/promotion."
           ]
         },
-        "4.4": {
+        "4.3.4": {
           "title": "Global industries and companies (multinational corporations)",
           "bullets": [
-            "Explain the impact of MNCs on local and national economies (labour, local businesses, economic growth).",
-            "Explain international business ethics (stakeholder conflicts, environmental considerations).",
-            "Discuss supply chain considerations (pay, working conditions, exploitation).",
-            "Discuss marketing considerations (misleading labels, inappropriate marketing).",
-            "Identify factors to consider when controlling MNCs (power, political influence, legal control)."
+            "Explain the impact of MNCs on local economies: labor, wages, working conditions, job creation, local businesses, community, environment.",
+            "Explain the impact of MNCs on national economies: economic growth, FDI, balance of payments, technology/skills transfer, consumers, business culture, tax revenues.",
+            "Explain international business ethics: stakeholder conflicts, environmental considerations (emissions, waste, sustainability), supply chain considerations (pay, working conditions, exploitation), marketing considerations (misleading labels, inappropriate activities).",
+            "Identify factors to consider when controlling MNCs: MNC power, political influence, legal control, consumer pressure, pressure groups, social media, self-regulation."
           ]
         }
       }
