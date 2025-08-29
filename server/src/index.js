@@ -24,13 +24,18 @@ const ALLOWED = [
     'http://localhost:5173',
     'http://localhost:5174',
 ];
-const allow = (origin) =>
-    !origin ||
-    ALLOWED.includes(origin) ||
-    /\.vercel\.app$/.test(new URL(origin).hostname) ||   // preview deployments
-    /your-custom-domain\.com$/.test(new URL(origin).hostname); // if you add one
+const allowOrigin = (origin) => {
+    if (!origin) return true; // server-to-server or curl
+    try {
+        const host = new URL(origin).hostname;
+        return host.endsWith('.vercel.app') || host === 'localhost';
+    } catch { return false; }
+};
 
-app.use(cors({ origin: (o, cb) => cb(null, allow(o)), credentials: true }));
+app.use(cors({
+    origin: (origin, cb) => cb(null, allowOrigin(origin)),
+    credentials: true
+}));
 app.use(cookieParser());
 app.use(express.json());
 

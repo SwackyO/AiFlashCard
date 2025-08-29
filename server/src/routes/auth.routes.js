@@ -7,11 +7,12 @@ const router = Router();
 function issue(res, user) {
     const token = jwt.sign({ id: user._id, email: user.email }, process.env.JWT_SECRET, { expiresIn: '7d' });
     const prod = process.env.NODE_ENV === 'production';
+
     res.cookie('token', token, {
         httpOnly: true,
-        secure: prod,              // true in prod so browsers accept SameSite=None
-        sameSite: prod ? 'none' : 'lax',
-        maxAge: 7*24*3600*1000
+        sameSite: prod ? 'none' : 'lax',  // <-- must be 'none' in prod (cross-site)
+        secure: prod,                     // <-- must be true on HTTPS
+        maxAge: 7 * 24 * 3600 * 1000
     });
 }
 
