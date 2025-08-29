@@ -6,4 +6,11 @@ const http = axios.create({
     headers: { 'Content-Type': 'application/json' },
     withCredentials: true,   // ← important
 });
+
+http.interceptors.request.use((cfg) => {
+      const t = localStorage.getItem('access_token');
+      if (t) cfg.headers.Authorization = `Bearer ${t}`;
+      return cfg;
+    });
+
 export default http;

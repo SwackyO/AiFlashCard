@@ -14,6 +14,7 @@ function issue(res, user) {
         secure: prod,                     // <-- must be true on HTTPS
         maxAge: 7 * 24 * 3600 * 1000
     });
+    return token
 }
 
 router.post('/register', async (req, res) => {
@@ -23,16 +24,16 @@ router.post('/register', async (req, res) => {
     const u = new User({ email, name });
     await u.setPassword(password);
     await u.save();
-    issue(res, u);
-    res.json({ id: u._id, email: u.email, name: u.name });
+    const token = issue(res, u);
+    res.json({ id: u._id, email: u.email, name: u.name, token });
 });
 
 router.post('/login', async (req, res) => {
     const { email, password } = req.body;
     const u = await User.findOne({ email });
     if (!u || !(await u.checkPassword(password))) return res.status(401).json({ error: 'Invalid credentials' });
-    issue(res, u);
-    res.json({ id: u._id, email: u.email, name: u.name });
+    const token = issue(res, u);
+    res.json({ id: u._id, email: u.email, name: u.name, token });
 });
 
 router.post('/logout', (req, res) => {
